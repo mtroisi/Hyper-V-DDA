@@ -4,7 +4,7 @@ This is a PowerShell script written to assist in using Hyper-V Discrete Device A
 ## Parameters
 `Mode`: Required parameter to specify if a device is to be mounted to a VM, or unmounted from a VM and returned to the host. Valid options are "Mount" and "Dismount"
 
-`VMName`: Required parameter to specify the VM name to mount a device to or unmount a device from.
+`VMName`: Required parameter to specify the VM name to mount a device to or unmount a device from
 
 `InstanceId`: Optional parameter only used when mounting a device to a VM. Please use InstanceId found from using the PowerShell command 'Get-PnPDevice'
 
